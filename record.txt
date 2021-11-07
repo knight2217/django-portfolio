@@ -1,0 +1,10 @@
+poll->myapp
+
+mysite/manage.py
+
+mysite/myapp/-> 1.admin.py
+		2.apps.py
+		3.models.py
+		4.tests.py
+		5.urls.py
+		6.views.py

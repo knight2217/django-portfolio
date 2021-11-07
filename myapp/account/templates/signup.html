@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Sep 26 18:32:41 2021
+
+@author: vader227
+"""
+
+<h2>Register<h2>
+<form method = "post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type = "submit" name="button">Register</button>
+</form>
